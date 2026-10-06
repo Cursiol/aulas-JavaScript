@@ -14,6 +14,8 @@
 
 // String = "Text" | Number = Número
 
+//const são imutaveis, ou seja, não podem ser alteradas. Já o let é mutável, ou seja, pode ser alterado.
+
 const primeiroNumero = 5;
 const segundoNumero = 10;
 const resultado = primeiroNumero * segundoNumero;
