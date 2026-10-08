@@ -55,3 +55,15 @@ console.log(contador5); // 2
 let contador6 = 10;
 contador6 -= step;
 console.log(contador6); // 8
+
+// Converter string para number 
+console.log("--------Convertendo string para number-------");
+const num3 = '5';
+const num4 = '10';
+console.log(num3 + num4); // 510
+console.log(Number(num3) + Number(num4)); // 15
+
+//ou podemos usar o parseInt(), parseFloat() ou Number() para converter uma string para number. Exemplo:
+const num5 = 5;
+const num6 = Number('10.12');
+console.log(num5 + num6); // 15.12
