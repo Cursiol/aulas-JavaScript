@@ -31,8 +31,12 @@ console.log(umaString.match(/[a-z]/g)); //retorna um array com todas as letras m
 console.log(umaString.search(/[x]/)); //retorna o index da primeira letra que encontrar, se não encontrar retorna -1
 console.log(umaString.replace('Um','Doida')); //substitui a primeira palavra encontrada
 
-let travaLingua = 'O rato roeu a roupa do rei de Roma';
+let travaLingua = 'O rato roeu a roupa do rei de Roma.';
 console.log(travaLingua.replace(/r/, '#')); //substitui a primeira letra encontrada
 console.log(travaLingua.replace(/r/g, '#')); //substitui todas as letras encontradas
 
 console.log(travaLingua.length); //retorna o tamanho da string
+
+console.log(travaLingua.slice(2,6)) //retorna a string do index 2 até o index 6, mas não inclui o index 6
+
+console.log(travaLingua.slice(-5)); //retorna os últimos 5 caracteres da string
