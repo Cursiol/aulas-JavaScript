@@ -40,3 +40,15 @@ console.log(travaLingua.length); //retorna o tamanho da string
 console.log(travaLingua.slice(2,6)) //retorna a string do index 2 até o index 6, mas não inclui o index 6
 
 console.log(travaLingua.slice(-5)); //retorna os últimos 5 caracteres da string
+
+console.log(travaLingua.slice(-5, -1)); //retorna a string do index -5 até o index -1, mas não inclui o index -1
+
+console.log(travaLingua.substring(2,6)) //retorna a string do index 2 até o index 6, mas não inclui o index 6
+
+console.log(travaLingua.split(' ')); //retorna um array com as palavras da string, separadas pelo espaço
+
+console.log(travaLingua.split('r', 4)); //retorna um array com as palavras da string, separadas pela letra "r", limitando a 4 partes
+
+console.log(travaLingua.toUpperCase()); //retorna a string em maiúsculo
+
+console.log(travaLingua.toLowerCase()); //retorna a string em minúsculo
