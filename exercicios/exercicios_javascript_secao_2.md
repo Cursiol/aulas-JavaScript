@@ -37,11 +37,6 @@ O programa deverá:
 
 **Desafio extra:** aumente a idade em 1 e exiba o novo valor.
 
-**Anotações / dúvidas:**
-
-- Data do estudo: 20/10/2026
-- Tempo dedicado: 3 min
-- Observações: Relativamente facil esse exercicio que o chatGpt me recomendou, mas interessante, usei let e const apenas para poder praticar mesmo, não me senti desafiado, mas achei legal para estar praticando, seguirei realizando os demais exercicios para poder testar meu conhecimento.
 
 ---
 
@@ -68,12 +63,6 @@ Seu programa deve calcular:
 
 **Regra:** faça os cálculos usando variáveis e operadores. Não escreva os resultados manualmente.
 
-**Anotações / dúvidas:**
-
-- Data do estudo: ____/____/________
-- Tempo dedicado: ______ h ______ min
-- Observações: ______________________________________________
-
 ---
 
 ## Exercício 3 — Strings e concatenação
@@ -95,12 +84,6 @@ Monte uma mensagem semelhante a esta, usando os valores das variáveis:
 O número acima é apenas um exemplo.
 
 **Desafio extra:** exiba o tamanho do nome e transforme o nome completo em letras maiúsculas.
-
-**Anotações / dúvidas:**
-
-- Data do estudo: ____/____/________
-- Tempo dedicado: ______ h ______ min
-- Observações: ______________________________________________
 
 ---
 
@@ -125,12 +108,6 @@ Implemente um programa que calcule:
 4. O maior e o menor valor entre os quatro custos.
 
 **Atenção:** margem sobre o custo significa multiplicar o custo total por `1.40`, não dividir por `0.60`.
-
-**Anotações / dúvidas:**
-
-- Data do estudo: ____/____/________
-- Tempo dedicado: ______ h ______ min
-- Observações: ______________________________________________
 
 ---
 
@@ -157,12 +134,6 @@ Faça seu programa:
 
 **Desafio extra:** crie um segundo array com três tecnologias de back-end e junte os dois arrays em uma nova lista.
 
-**Anotações / dúvidas:**
-
-- Data do estudo: ____/____/________
-- Tempo dedicado: ______ h ______ min
-- Observações: ______________________________________________
-
 ---
 
 ## Exercício 6 — Funções
@@ -181,12 +152,6 @@ Depois:
 4. Crie outra função chamada `verificarAprovacao` que receba a média e retorne `true` se ela for igual ou superior a 7, e `false` caso contrário.
 
 **Desafio extra:** faça a segunda função utilizar o resultado da primeira, sem repetir os cálculos.
-
-**Anotações / dúvidas:**
-
-- Data do estudo: ____/____/________
-- Tempo dedicado: ______ h ______ min
-- Observações: ______________________________________________
 
 ---
 
@@ -214,12 +179,6 @@ Depois:
 6. Exiba o objeto completo.
 
 **Desafio extra:** crie uma função que receba um objeto de produto e retorne seu lucro bruto.
-
-**Anotações / dúvidas:**
-
-- Data do estudo: ____/____/________
-- Tempo dedicado: ______ h ______ min
-- Observações: ______________________________________________
 
 ---
 
