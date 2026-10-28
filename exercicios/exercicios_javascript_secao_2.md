@@ -223,15 +223,12 @@ O estudante deverá ter:
 Depois de concluir os exercícios, responda:
 
 1. Quais exercícios consegui resolver sem ajuda?
+   R: dos exercios 1 ao 6
 2. Em quais precisei consultar minhas anotações?
+   R: os exercicios 7 e 8
 3. Qual conceito ainda preciso praticar?
+   R: ainda preciso praticar mais funções e objetos, vejo que tenho dificuldade em saber quando usar e como usar
 4. Consigo explicar meu código com minhas próprias palavras?
+   R: Sim, consigo explicar para qualquer pessoa oque eu fiz nesses exercicios depois de fazer eles
 5. O que vou revisar na próxima sessão?
-
-**Resumo do estudo**
-
-- Data: ____/____/________
-- Tempo total: ______ h ______ min
-- Principal aprendizado: ______________________________________
-- Dúvidas para revisar: _______________________________________
-- Próximo passo: _____________________________________________
+   R: proxima sessão agora vou começar e ver logica de programação, que acredito que vai conseguir me ajudar com as duvidas que eu tive nessees exercicios

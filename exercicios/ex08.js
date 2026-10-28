@@ -28,4 +28,44 @@
 
 const nome = 'Lucas';
 const idade = 28;
-const materias = ['JavaScript', 'TypeScript', 'React'];
+const tecnologias = ['JavaScript', 'TypeScript', 'React'];
+let nota1 = 7;
+let nota2 = 10;
+let nota3 = 6;
+
+
+function calcularMedia (nota1, nota2, nota3) {
+    const media = (nota1 + nota2 + nota3) / 3
+    return media;
+}
+
+
+function verificarAprovacao (calcularMedia) {
+    if (calcularMedia >= 7) {
+        return true;
+    } else {
+        return false;
+    }
+}
+
+const media = calcularMedia(nota1, nota2, nota3);
+const aprovado = verificarAprovacao(media);
+
+const estudante = {
+    nome: nome,
+    idade: idade,
+    tecnologias: tecnologias,
+    nota1: nota1,
+    nota2: nota2,
+    nota3: nota3,
+    media: media,
+    aprovado: aprovado
+}
+
+console.log(`##### Relatorio do Aluno #####`);
+console.log(`Nome do Aluno: ${estudante.nome}.`);
+console.log(`Idade: ${estudante.idade}.`);
+console.log(`Tecnologias Estudadas: ${estudante.tecnologias}.`);
+console.log(`Notas: n1 = ${nota1}, n2 = ${nota2}, n3 = ${nota3}.`);
+console.log(`Media das notas: ${estudante.media}`);
+console.log(`Aprovado? ${estudante.aprovado}`);
