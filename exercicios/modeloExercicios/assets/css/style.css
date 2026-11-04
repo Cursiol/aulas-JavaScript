@@ -2,6 +2,8 @@
 
 :root {
     --primary-color: #9be4a4;
+    --primary-color-dark: #12701d;
+    --primary-color-medium: #69e978;
 }
 
 * {
@@ -21,12 +23,42 @@ body {
 .container {
     max-width: 640px;
     margin: 50px auto;
-    background: #69e978;
+    background: white;
     padding: 20px;
+    border-radius: 10px;
 }
 
-fomr input, form label, form button {
+form input, form label, form button {
     display: block;
     width: 100%;
     margin-bottom: 10px;
+}
+
+form input {
+    font-size: 21px;
+    height: 50px;
+    padding: 0 20px;
+}
+
+form input :focus {
+    outline: 1px solid var(--primary-color);
+}
+
+form button {
+    border : none;
+    background: var(--primary-color);
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    height: 50px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+form button:hover {
+    background: var(--primary-color-dark);
+}
+
+form button:active {
+    background: var(--primary-color-medium);
 }
